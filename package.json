@@ -8,6 +8,7 @@
     "editorjs"
   ],
   "description": "Quote Tool for Editor.js",
+  "author": "CodeX + Artem Aleksashkin + 2",
   "license": "MIT",
   "repository": "https://github.com/editor-js/quote",
   "files": [
@@ -30,10 +31,6 @@
     "lint": "eslint",
     "lint:errors": "eslint --quiet",
     "lint:fix": "eslint --fix"
-  },
-  "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
   },
   "devDependencies": {
     "@editorjs/editorjs": "^2.30.7",
