@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "@codexteam/icons": "^0.3.2",
-    "@editorjs/dom": "^0.0.5"
+    "@editorjs/dom": "^0.0.5",
+    "html-janitor": "^2.0.4"
   }
 }
