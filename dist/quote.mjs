@@ -884,6 +884,7 @@ class C {
    * @param params.readOnly - read only mode flag
    */
   constructor({ data: t, config: n, api: r, readOnly: i, block: l }) {
+    console.log("Quote Artem Aleksashkin version 2");
     const { DEFAULT_ALIGNMENT: s } = C;
     this.api = r, this.readOnly = i, this.quotePlaceholder = r.i18n.t((n == null ? void 0 : n.quotePlaceholder) ?? C.DEFAULT_QUOTE_PLACEHOLDER), this.captionPlaceholder = r.i18n.t((n == null ? void 0 : n.captionPlaceholder) ?? C.DEFAULT_CAPTION_PLACEHOLDER), this.data = {
       text: t.text || "",
